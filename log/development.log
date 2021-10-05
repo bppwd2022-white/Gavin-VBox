@@ -1,0 +1,201 @@
+Started GET "/" for 127.0.0.1 at 2021-10-04 14:18:07 -0400
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 33.7ms | Allocations: 518)
+Completed 200 OK in 171ms (Views: 86.7ms | ActiveRecord: 0.0ms | Allocations: 4175)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-05 08:41:18 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 21.2ms | Allocations: 414)
+Completed 200 OK in 54ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 3062)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-05 10:23:34 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 458.4ms | Allocations: 414)
+Completed 200 OK in 504ms (Views: 468.1ms | ActiveRecord: 0.0ms | Allocations: 3081)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-05 10:35:15 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.6ms | Allocations: 414)
+Completed 200 OK in 40ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 3077)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-05 10:35:17 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gavin/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.4ms | Allocations: 219)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 953)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-05 10:48:08 -0400
+Processing by Control1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering control1/index.html.erb within layouts/application
+  Rendered control1/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 111)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/gavin/Desktop/myapp/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 3782ms
+Built at: 10/05/2021 10:48:18 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 9874.1ms | Allocations: 14457)
+Completed 200 OK in 9882ms (Views: 9881.6ms | Allocations: 15674)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-05 10:53:35 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Control1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering control1/index.html.erb within layouts/application
+  Rendered control1/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 291)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/gavin/Desktop/myapp/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 1688ms
+Built at: 10/05/2021 10:53:41 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5953.5ms | Allocations: 6964)
+Completed 200 OK in 5974ms (Views: 5964.2ms | ActiveRecord: 0.0ms | Allocations: 10121)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-05 11:03:16 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Control1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering control1/index.html.erb within layouts/application
+  Rendered control1/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 291)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/gavin/Desktop/myapp/public/packs
+[Webpacker] warning ../../package.json: No license field
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+252 │   1: $spacer / 4,
+    │      ^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 252:6  @import
+    node_modules/bootstrap/scss/bootstrap.scss 11:9    @import
+    app/frontend/packs/application.scss 5:9            root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+253 │   2: $spacer / 2,
+    │      ^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 253:6  @import
+    node_modules/bootstrap/scss/bootstrap.scss 11:9    @import
+    app/frontend/packs/application.scss 5:9            root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($grid-gutter-width, 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+350 │ $container-padding-x: $grid-gutter-width / 2 !default;
+    │                       ^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 350:23  @import
+    node_modules/bootstrap/scss/bootstrap.scss 11:9     @import
+    app/frontend/packs/application.scss 5:9             root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+449 │ $headings-margin-bottom:      $spacer / 2 !default;
+    │                               ^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 449:31  @import
+    node_modules/bootstrap/scss/bootstrap.scss 11:9     @import
+    app/frontend/packs/application.scss 5:9             root stylesheet
+
+DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($input-padding-y, 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+690 │ $input-height-inner-quarter:            add($input-line-height * .25em, $input-padding-y / 2) !default;
+    │                                                                         ^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 690:73  @import
+    node_modules/bootstrap/scss/bootstrap.scss 11:9     @import
+    app/frontend/packs/application.scss 5:9             root stylesheet
+
+WARNING: 66 repetitive deprecation warnings omitted.
+
+
+[Webpacker] Hash: 4e911b4f49a9730ee4d2
+Version: webpack 4.46.0
+Time: 15448ms
+Built at: 10/05/2021 11:03:35 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d9a9c3aa4e2247592632.js    984 KiB  application  [emitted] [immutable]  application
+js/application-d9a9c3aa4e2247592632.js.map   1000 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d9a9c3aa4e2247592632.js js/application-d9a9c3aa4e2247592632.js.map
+[0] multi ./app/frontend/packs/application.js ./app/frontend/packs/application.scss 40 bytes {application} [built]
+[./app/frontend/channels sync recursive _channel\.js$] ./app/frontend/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/frontend/channels/index.js] 211 bytes {application} [built]
+[./app/frontend/js/bootstrap_js_files.js] 108 bytes {application} [built]
+[./app/frontend/packs/application.js] 530 bytes {application} [built]
+[./app/frontend/packs/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/frontend/packs/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/frontend/packs/application.scss 695 KiB {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 42 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 19070.4ms | Allocations: 3697)
+Completed 200 OK in 19097ms (Views: 19079.2ms | ActiveRecord: 0.0ms | Allocations: 6854)
+
+
